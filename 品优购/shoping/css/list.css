@@ -1,0 +1,47 @@
+/* 秒杀导航模块 */
+.header .sk {
+    position: absolute;
+    top: 35px;
+    left: 190px;
+    padding-left: 20px;
+    border-left: 1px solid #c81523;
+}
+.sk-list {
+    float: left;
+}
+    .sk-list ul li {
+        float: left;
+        padding: 0 30px;
+        color: #000;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 35px;
+        
+    }
+.sk-con {
+    float: left;
+}
+.sk-con ul li {
+    float: left;
+    padding: 0 22px;
+        color: #000;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 35px;
+}
+.sk-con ul li:last-child a::after{
+    content: '\e902';
+    font-family: 'icomoon';
+}
+.sk-countainer .sk-bd ul li{
+    overflow: hidden;
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid transparent;
+}
+.sk-countainer .sk-bd ul li:hover{
+    border: 1px solid #c81523;
+}

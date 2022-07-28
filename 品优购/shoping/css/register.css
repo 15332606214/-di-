@@ -1,0 +1,78 @@
+.w header{
+    height: 70px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #8e9793;
+}
+.registerarea{
+    height: 520px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3 {
+    font-size: 16px;
+    height: 42px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 40px;
+}
+.registerarea .login {
+    float: right;
+    padding-right: 20px;
+}
+.reg-form {
+    width: 600px;
+    
+    margin: 50px auto 0;
+}
+.reg-form ul li label {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+.reg-form ul li .inp {
+    width: 240px;
+    height: 35px;
+    border: 1px solid #ccc;
+}
+.error {
+    color: #c81523;
+}
+.reg-form ul li {
+    margin-bottom: 20px;
+}
+.safe {
+    margin-left: 30%;
+}
+.safe em {
+    margin-left: 3px;
+    color: #fff;
+    padding: 0 15px;
+}
+.ruo{
+    background-color: #c81523;
+}
+.zhong {
+    background-color: greenyellow;
+}
+.qiang {
+    background-color: orange;
+}
+.agree {
+    padding-left: 20%;
+}
+.agree a{
+    color: aqua;
+}
+.agree input {
+    vertical-align: middle;
+}
+
+.btn{
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 19%;
+}
